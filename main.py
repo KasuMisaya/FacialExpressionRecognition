@@ -8,7 +8,7 @@ import tensorflow as tf
 st.title('Streamlit App Test')
 st.write('Hello world')
 
-face_detection = cv2.CascadeClassifier('facial-expression-recognition/haar_cascade_face_detection.xml')
+face_detection = cv2.CascadeClassifier('haar_cascade_face_detection.xml')
 
 # camera = cv2.VideoCapture(0)
 # camera.set(cv2.CAP_PROP_FRAME_WIDTH, 1024)
@@ -21,7 +21,7 @@ settings = {
 
 labels = ['Surprise', 'Neutral', 'Anger', 'Happy', 'Sad']
 
-model = tf.keras.models.load_model('facial-expression-recognition/network-5Labels.h5')
+model = tf.keras.models.load_model('network-5Labels.h5')
 
 class VideoProcessor:
     def recv(self, frame):
