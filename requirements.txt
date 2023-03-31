@@ -1,8 +1,11 @@
-numpy==1.19.4
+numpy==1.24.2
 opencv-contrib-python==4.5.2.52
 opencv-python==4.4.0.46
 opencv-python-headless==4.5.1.48
-tensorflow==2.6.0
-tensorflow-estimator==2.6.0
-keras==2.6.0
+tensorflow==2.7.0
+tensorflow-estimator==2.7.0
+keras==2.7.0
 Keras-Preprocessing==1.1.2
+click==8.0.4
+streamlit==1.4.0
+streamlit-webrtc==0.34.2
